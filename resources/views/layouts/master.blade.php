@@ -3,7 +3,6 @@
 <head>
     <title>Baleen - @yield('title')</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 
@@ -11,9 +10,10 @@
 
 </head>
 <body>
+    <div class="blue-horizon"></div>
     @include('layouts.navbar')
 
-    <div class="container">
+    <div class="container master-container">
         @yield('content')
     </div>
 
